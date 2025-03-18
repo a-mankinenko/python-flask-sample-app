@@ -4,8 +4,8 @@
 replicaCount: 1
 image:
   pullPolicy: IfNotPresent
-  repository: registry-1.docker.io/amankinenko/python-flask-sample-app
-  tag: master
+  repository: registry-1.docker.io/amankinenko/python-flask-sample-app-test1
+  tag: 67a06085bec2e2fe2a9b72a8
 service:
   name: python
   type: LoadBalancer
